@@ -26,17 +26,17 @@ header{
 
 
 
-#content-header{	
-	height: 100%;
-	margin-top: 3%;
+#content-header{    
+    height: 100%;
+    margin-top: 3%;
     display: inline-block;
 }
 #content-header img{
-	max-width: 24%;
-	max-height: 24%;
-	margin-left: 10px;
+    max-width: 24%;
+    max-height: 24%;
+    margin-left: 10px;
 }
-#logoli-hr{	
+#logoli-hr{ 
     width: 2px;
     background-color: #e9e9e9;
     display: inline-block;
@@ -44,25 +44,25 @@ header{
     padding-top: 6%;
 }
 #content-header ul{
-	display: inline-block;	
+    display: inline-block;  
     margin: 27px 0px 0px 7%;
     position: absolute;
 }
 #content-header ul li{
-	display: inline-block;
-	margin-left: 15px;
+    display: inline-block;
+    margin-left: 15px;
 }
 #content-header p{
-	color: #8c8c8c;
+    color: #8c8c8c;
     display: inline-block;
     margin-left: 15px;
     font-size: 1.3em;
 }
 .active{
-	color: #2def10;
+    color: #2def10;
 }
 #header-hr{
-	width: 100%;
+    width: 100%;
     border-bottom: 1px solid #e9e9e9;
     margin-top: 8px
 }
@@ -71,7 +71,7 @@ header{
 
 /***************** MAIN *****************/
 .main{
-    padding: 5px 0 30px 0;
+    padding-top: 5px;
 }
 .welcome{
     height: 450px;
@@ -181,7 +181,8 @@ header{
     font-family: Varela Round;
 }
 .contact{
-    height: 450px;
+    padding: 10px 0 35px 0;
+    display: inline-block;
 }
 .e{
     width: 35%;
@@ -217,9 +218,9 @@ header{
     box-shadow: 0 0 3px 3px #dddde5;
 }
 .questions h2{
-    margin-left: 8%;
+    margin-left: 20%;
     color: #078dda; 
-    font-size: 23px;
+    font-size: 26px;
     font-family: "Proxima Nova Soft";
 }
 .q-group{
@@ -230,13 +231,25 @@ header{
 }
 .qleft{
     float: left;
+    margin-top: 15px;
 }
 .qright{
     float: right;
-    border-left: 1px solid grey;
+    border-left: 1px solid #e2e2e2;
+    margin-top: 15px;
 }
-
-
+.qright .me{
+    margin-top: 10px;
+}
+.qright div:first-child{
+    margin-top: 80px;
+}
+.question{
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-radius: 4px;
+    display: inline-block;
+}
 .bubble{
     background-color: #F2F2F2;
     border-radius: 5px;
@@ -246,7 +259,6 @@ header{
     position: relative;
     vertical-align: top;
 }
-
 .bubble::before {
     background-color: #F2F2F2;
     content: "\00a0";
@@ -255,29 +267,70 @@ header{
     position: absolute;
     top: 11px;
     transform:             rotate( 29deg ) skew( -35deg );
-        -moz-transform:    rotate( 29deg ) skew( -35deg );
-        -ms-transform:     rotate( 29deg ) skew( -35deg );
-        -o-transform:      rotate( 29deg ) skew( -35deg );
-        -webkit-transform: rotate( 29deg ) skew( -35deg );
+    -moz-transform:    rotate( 29deg ) skew( -35deg );
+    -ms-transform:     rotate( 29deg ) skew( -35deg );
+    -o-transform:      rotate( 29deg ) skew( -35deg );
+    -webkit-transform: rotate( 29deg ) skew( -35deg );
     width:  20px;
 }
-
 .me {
     float: left;   
-    margin: 5px 45px 5px 20px;         
+    margin: 5px 39px 5px 25px;  
+    margin-top: 20px;      
 }
 
+.me h2{
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.42vw;
+    margin: 0;
+}
 .me::before {
     box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
     left: -9px;           
 }
-
 .you {
     float: right;    
-    margin: 5px 20px 5px 45px;         
+    margin: 15px 25px 5px 50px;         
 }
-
 .you::before {
     box-shadow: 2px -2px 2px 0 rgba( 178, 178, 178, .4 );
     right: -9px;    
+}
+.font h2{    
+    font-size: 15px;
+    margin: 5px;
+    color: #078dda; 
+    font-size: 17px;
+    font-family: "Proxima Nova Soft";
+}
+.font p{
+    margin-top: 15px;
+    font-size: 17px;
+    margin-left: 25px;
+    font-family: 'Josefin Slab', serif;
+}
+
+
+/***************** FOOTER *****************/
+footer{
+    background-color: #5f5fff;
+    padding: 5px 0 5px 0;
+}
+.center{
+    margin-left: 24%;
+    width: 50%;
+}
+footer h1{
+    margin-left: 25%;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.git{
+    display: inline-block;
+}
+.git img{
+    width: 25px;
+    height: 25px;
 }
