@@ -190,12 +190,12 @@ header{
 }
 .e h1{
     font-family: 'Josefin Slab', serif;
-    font-size: 60px;
+    font-size: 4.42vw;
 }
 .e p{
     margin-top: 25px;
     font-family: 'Dosis', sans-serif;
-    font-size: 25px;
+    font-size: 1.84vw;
     line-height: 1.3em;
 }
 .d{
@@ -222,35 +222,62 @@ header{
     font-size: 23px;
     font-family: "Proxima Nova Soft";
 }
-.questions-e{
-    width: 40%;
-    height: 300px;
+.q-group{
+    display: inline-block;
 }
-.question{
-    padding: 5px 0 5px 0;
-    background-color: white;
-    width: 80%;
+.questions-group{
+    width: 50%;
+}
+.qleft{
+    float: left;
+}
+.qright{
     float: right;
+    border-left: 1px solid grey;
 }
 
-.message{
-    width: 40%;
-    padding: 5px 5px 5px 5px;
+
+.bubble{
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #B2B2B2;
+    display: inline-block;
+    padding: 10px 18px;
+    position: relative;
+    vertical-align: top;
 }
-.tale{
-    width: 21px;
-    height: 20px;
-    float: left;
-    background-image: url(autor-icon.png);
+
+.bubble::before {
+    background-color: #F2F2F2;
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform:             rotate( 29deg ) skew( -35deg );
+        -moz-transform:    rotate( 29deg ) skew( -35deg );
+        -ms-transform:     rotate( 29deg ) skew( -35deg );
+        -o-transform:      rotate( 29deg ) skew( -35deg );
+        -webkit-transform: rotate( 29deg ) skew( -35deg );
+    width:  20px;
 }
-.msg{
-    width: 85%;
-    height: 100%;
-    border: 1px solid #e2e2e4;
-    margin-left: 20px;
-    border-radius: 0 6px 6px 6px;
-    background-color: white;
+
+.me {
+    float: left;   
+    margin: 5px 45px 5px 20px;         
 }
-.msg p{
-    margin-left: 2px;
+
+.me::before {
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+    left: -9px;           
+}
+
+.you {
+    float: right;    
+    margin: 5px 20px 5px 45px;         
+}
+
+.you::before {
+    box-shadow: 2px -2px 2px 0 rgba( 178, 178, 178, .4 );
+    right: -9px;    
 }
