@@ -1,0 +1,14 @@
+/***************** DESKTOP SCREEN ***************** 1180px ++ */
+@import "style-desktop.css";
+
+/***************** SMALL SCREEN ***************** 960 px - 1180px */
+@import "style-small.css" (min-width: 960px) and (max-width: 1180px);
+
+/***************** TABLET ***************** 768 px - 960px */
+@import "style-tablet.css" (min-width: 768px) and (max-width: 959px);
+
+/***************** MOBILE ***************** 480 px - 768px */
+@import "style-mobile2.css" (min-width: 480px) and (max-width: 767px);
+
+/***************** MOBILE ***************** 320 px - 480px */
+@import "style-mobile1.css" (min-width: 320px) and (max-width: 479px);
