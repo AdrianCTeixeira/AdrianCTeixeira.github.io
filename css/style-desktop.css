@@ -4,6 +4,9 @@
 }
 
 /***************** HEADER *****************/
+.container button{
+    display: none;
+}
 li a {
     color: #56a5ce;
     text-decoration: none;
@@ -27,7 +30,7 @@ nav {
 .content-header{
     margin-top: 3%;
 }
-.content-header img{
+.navlogo img:first-child{
     max-width: 60%;
     margin-left: 10px;
 }
