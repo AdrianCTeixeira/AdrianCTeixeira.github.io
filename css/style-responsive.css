@@ -1,0 +1,32 @@
+
+@media only screen and (max-width: 1080px){
+	.navlogo{
+		border-right: none;
+	}
+	.navlogo img:first-child {
+		max-width: 90%;
+	}
+	.content-header ul{
+		margin-right: 0;
+	}
+	.content-header ul li {
+		margin-left: 25px;
+	}
+	.content-header p{
+		display: none;
+	}
+	.navlogo{
+		border-right: none;
+	}
+}
+@media screen and (max-width: 768px) and (min-width: 360px){
+	.navlogo img:first-child {
+		max-width: 100%;
+	}
+	.content-header ul {
+		display: none;
+	}
+	.navlogo{
+		width: 45%;
+	}
+}
