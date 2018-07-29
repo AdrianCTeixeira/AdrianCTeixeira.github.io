@@ -1,32 +1,11 @@
-
-@media only screen and (max-width: 1080px){
-	.navlogo{
+@media screen and (max-width: 960px) and (min-width: 768px){
+	.logo{
 		border-right: none;
 	}
-	.navlogo img:first-child {
-		max-width: 90%;
-	}
-	.content-header ul{
-		margin-right: 0;
-	}
-	.content-header ul li {
-		margin-left: 25px;
-	}
-	.content-header p{
-		display: none;
-	}
-	.navlogo{
-		border-right: none;
+	.content-header img:first-child {
+		width: 85%;
 	}
 }
 @media screen and (max-width: 768px) and (min-width: 360px){
-	.navlogo img:first-child {
-		max-width: 100%;
-	}
-	.content-header ul {
-		display: none;
-	}
-	.navlogo{
-		width: 45%;
-	}
+	
 }
