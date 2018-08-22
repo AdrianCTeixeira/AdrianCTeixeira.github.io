@@ -10,9 +10,6 @@ Site com interface amigavel, responsiva, e simples para divulgar e informar mais
 # Ferramentas
 HTML, CSS, JS. 0 frameworks.
 
-# Porque 6 meses para construir um simples site?
-Esse projeto é desenvolvido apenas como hobbie e em horas vagas.
-
 # Porque nao usar frameworks?
 Para um melhor aperfeiçoamento da pura linguaguem front-end ( seguindo o *dev-2018 ways*).
 
